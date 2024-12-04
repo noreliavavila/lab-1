@@ -4,12 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sobre Mí - Norelia</title>
-    <link rel="stylesheet" href="estilos.css"> <!-- Vincula el archivo CSS -->
+    <link rel="stylesheet" href="estilos.css"> 
 </head>
 <body>
     <header>
-        <h1>Sobre Norelia</h1> <!-- Título principal -->
-        <h2>Mi pasión por el cuidado de uñas</h2> <!-- Subtítulo -->
+        <h1>Sobre Norelia</h1> 
+        <h2>Mi pasión por el cuidado de uñas</h2> 
     </header>
 
     <section>
@@ -64,6 +64,22 @@
                 </tr>
             </tbody>
         </table>
+    </section>
+
+    <section>
+        <h2>Formulario de Contacto</h2>
+        <form action="mailto:norelia@correo.com" method="post" enctype="text/plain">
+            <label for="nombre">Nombre:</label><br>
+            <input type="text" id="nombre" name="nombre" required><br><br>
+
+            <label for="motivo">Motivo de contacto:</label><br>
+            <input type="text" id="motivo" name="motivo" required><br><br>
+
+            <label for="email">Correo electrónico:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <button type="submit">Enviar</button>
+        </form>
     </section>
 </body>
 
