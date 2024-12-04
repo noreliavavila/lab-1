@@ -1,36 +1,36 @@
-/* General */
+
 body {
-    font-family: 'Arial', sans-serif;  /* Fuente estándar para el cuerpo */
-    background-color: #f4f4f9;         /* Fondo suave para la página */
-    color: #333;                       /* Color de texto oscuro */
+    font-family: 'Arial', sans-serif;  
+    background-color: #f4f4f9;         
+    color: #333;                       
     margin: 0;
     padding: 0;
 }
 
-/* Estilos para el header */
+
 .header {
-    background-color: #4CAF50;         /* Color verde para el encabezado */
-    color: white;                      /* Texto blanco */
-    text-align: center;                /* Centrado del texto */
-    padding: 30px 20px;                /* Espaciado interno */
+    background-color: #4CAF50;         
+    color: white;                      
+    text-align: center;                
+    padding: 30px 20px;                
 }
 
 .header h1 {
-    font-size: 36px;                   /* Tamaño grande para el título */
-    margin: 0;                          /* Eliminar el margen superior */
+    font-size: 36px;                   
+    margin: 0;                          
 }
 
 .header h2 {
-    font-size: 24px;                   /* Tamaño para el subtítulo */
-    font-style: italic;                /* Cursiva para el subtítulo */
+    font-size: 24px;                   
+    font-style: italic;                
 }
 
-/* Estilos para la sección de contenido */
+
 .contenido {
     padding: 20px;
-    text-align: center;                /* Centrado del contenido */
+    text-align: center;                
     max-width: 800px;
-    margin: 20px auto;                 /* Centrado de la sección */
+    margin: 20px auto;                 
 }
 
 .contenido p {
@@ -39,18 +39,18 @@ body {
     margin-bottom: 15px;
 }
 
-/* Estilos para la sección de redes sociales */
+
 section img {
     display: block;
     margin: 20px auto;
-    border-radius: 50%;                /* Hacer la imagen redonda */
-    border: 5px solid #4CAF50;         /* Borde verde alrededor de la imagen */
+    border-radius: 50%;                
+    border: 5px solid #4CAF50;         
 }
 
 section ul {
-    list-style-type: none;             /* Eliminar viñetas de la lista */
+    list-style-type: none;             
     padding: 0;
-    text-align: center;                /* Centrado de la lista */
+    text-align: center;                
 }
 
 section ul li {
@@ -58,61 +58,61 @@ section ul li {
 }
 
 section ul li a {
-    text-decoration: none;             /* Eliminar subrayado */
-    color: #4CAF50;                    /* Color verde para los enlaces */
+    text-decoration: none;             
+    color: #4CAF50;                    
     font-size: 18px;
 }
 
 section ul li a:hover {
-    color: #333;                       /* Color más oscuro cuando se pasa el mouse */
+    color: #333;                       
 }
 
-/* Estilos para las listas y tablas */
+
 h2 {
-    text-align: center;                /* Centrado de los títulos */
-    color: #4CAF50;                    /* Verde para los títulos */
+    text-align: center;                
+    color: #4CAF50;                    
 }
 
-/* Listas */
+
 ul, ol {
     max-width: 600px;
     margin: 0 auto 20px;
     padding-left: 20px;
 }
 
-/* Estilo de las tablas */
+
 table {
     width: 80%;
     margin: 20px auto;
-    border-collapse: collapse;        /* Unir bordes de celdas */
-    background-color: #fff;           /* Fondo blanco para la tabla */
-    border-radius: 8px;               /* Bordes redondeados */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);  /* Sombra suave */
+    border-collapse: collapse;        
+    background-color: #fff;           
+    border-radius: 8px;               
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);  
 }
 
 th, td {
     padding: 12px;
     text-align: left;
-    border: 1px solid #ddd;           /* Bordes suaves para las celdas */
+    border: 1px solid #ddd;           
 }
 
 th {
-    background-color: #4CAF50;        /* Color verde para los encabezados */
-    color: white;                     /* Texto blanco en los encabezados */
+    background-color: #4CAF50;        
+    color: white;                     
 }
 
 td {
-    background-color: #f9f9f9;        /* Fondo gris suave para las celdas */
+    background-color: #f9f9f9;        
 }
 
-/* Estilos para el formulario */
+
 form {
-    background-color: #fff;           /* Fondo blanco para el formulario */
+    background-color: #fff;           
     padding: 20px;
-    border-radius: 8px;               /* Bordes redondeados */
+    border-radius: 8px;               
     width: 300px;
     margin: 0 auto;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);  /* Sombra suave */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);  
 }
 
 form label {
@@ -125,14 +125,14 @@ form input[type="text"], form input[type="email"] {
     width: 100%;
     padding: 10px;
     margin-bottom: 15px;
-    border: 1px solid #ddd;           /* Borde gris claro */
+    border: 1px solid #ddd;           
     border-radius: 5px;
     font-size: 16px;
 }
 
 form button {
-    background-color: #4CAF50;        /* Fondo verde para el botón */
-    color: white;                     /* Texto blanco */
+    background-color: #4CAF50;        
+    color: white;                     
     padding: 10px;
     border: none;
     border-radius: 5px;
@@ -142,5 +142,5 @@ form button {
 }
 
 form button:hover {
-    background-color: #45a049;        /* Color verde más oscuro al pasar el mouse */
+    background-color: #45a049;        
 }
